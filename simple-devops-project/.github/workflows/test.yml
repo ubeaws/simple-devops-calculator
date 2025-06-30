@@ -1,0 +1,17 @@
+name: Trigger Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Print confirmation
+      run: echo "✅ Yes bhai, Actions finally triggered!"
