@@ -1,0 +1,21 @@
+# Terraform junk
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+
+# SSH private keys
+*.pem
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node or Python stuff (if used later)
+node_modules/
+__pycache__/
+.env
+
+# GitHub workflows cache (optional)
+.github/workflows/*.log
+
